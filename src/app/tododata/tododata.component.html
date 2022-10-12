@@ -1,3 +1,4 @@
+<app-navbar></app-navbar>
 <div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -18,13 +19,13 @@
                     <td>{{i.todo}}</td>
                     <td *ngIf="i.completed">
                         <div class=" alert alert-success" role="alert">
-                            completed
+                            true
                           </div></td>
                           
                           <td *ngIf="! i.completed">
                             
                               <div class="alert alert-danger" role="alert">
-                               not completed
+                               false
                               </div></td>
 
 
